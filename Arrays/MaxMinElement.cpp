@@ -1,7 +1,8 @@
+// progeam to find max and min of a given array
 #include <iostream>
 using namespace std;
 
-
+// function to find max element 
 int MaxElement(int arr[], int n){
     int max  = -1;
     for(int i=0; i<n; i++){
@@ -12,6 +13,7 @@ int MaxElement(int arr[], int n){
     return max;  
 }
 
+//program to find min element
 int  MinElement(int arr[], int n){
     int min=99999;
     for(int i=0; i<n; i++){
